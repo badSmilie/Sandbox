@@ -1,0 +1,30 @@
+﻿<Window x:Class="VierGewinnt.WpfClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:SampleData="clr-namespace:VierGewinnt.WpfClient.SampleData;assembly=VierGewinnt.WpfClient"
+        xmlns:local="clr-namespace:VierGewinnt.WpfClient"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        Title="Vier Gewinnt" Height="1000" Width="1900">
+    <d:Window.DataContext>
+        <SampleData:MainViewModelSampleData />
+    </d:Window.DataContext>
+    <Grid Margin = "30">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="377*"/>
+            <RowDefinition Height="43*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition />
+            <ColumnDefinition Width="250"/>
+        </Grid.ColumnDefinitions>
+
+        <ContentControl Grid.Column="0" Content="{Binding Path=SpielerViewModels[0]}" ContentTemplate="{StaticResource SpielerViewModelDataTemplate}"/>
+        <ContentControl Grid.Column="1" Content="{Binding Path=SpielbrettViewModel}" ContentTemplate="{StaticResource SpielbrettViewModelDataTemplate}"/>
+        <ContentControl Grid.Column="2" Content="{Binding Path=SpielerViewModels[1]}" ContentTemplate="{StaticResource SpielerViewModelDataTemplate}"/>
+        <TextBlock Text="{Binding Gewinnername, StringFormat=\{0\} hat gewonnen}" Grid.ColumnSpan="3" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Segoe UI Light" FontSize="40"></TextBlock>
+    </Grid>
+</Window>

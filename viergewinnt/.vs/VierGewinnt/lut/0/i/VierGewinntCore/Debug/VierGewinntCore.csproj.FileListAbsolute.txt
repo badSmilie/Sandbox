@@ -1,0 +1,16 @@
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\.vs\VierGewinnt\lut\0\b\VierGewinntCore\bin\Debug\VierGewinntCore.exe.config
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\.vs\VierGewinnt\lut\0\b\VierGewinntCore\bin\Debug\VierGewinntCore.exe
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\.vs\VierGewinnt\lut\0\b\VierGewinntCore\bin\Debug\VierGewinntCore.pdb
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\.vs\VierGewinnt\lut\0\i\VierGewinntCore\Debug\VierGewinntCore.csprojAssemblyReference.cache
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\.vs\VierGewinnt\lut\0\i\VierGewinntCore\Debug\MainWindow.g.cs
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\.vs\VierGewinnt\lut\0\i\VierGewinntCore\Debug\App.g.cs
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\.vs\VierGewinnt\lut\0\i\VierGewinntCore\Debug\VierGewinntCore_MarkupCompile.cache
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\.vs\VierGewinnt\lut\0\i\VierGewinntCore\Debug\VierGewinntCore_MarkupCompile.lref
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\.vs\VierGewinnt\lut\0\i\VierGewinntCore\Debug\MainWindow.baml
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\.vs\VierGewinnt\lut\0\i\VierGewinntCore\Debug\VierGewinntCore.g.resources
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\.vs\VierGewinnt\lut\0\i\VierGewinntCore\Debug\VierGewinntCore.Properties.Resources.resources
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\.vs\VierGewinnt\lut\0\i\VierGewinntCore\Debug\VierGewinntCore.csproj.GenerateResource.cache
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\.vs\VierGewinnt\lut\0\i\VierGewinntCore\Debug\VierGewinntCore.csproj.CoreCompileInputs.cache
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\.vs\VierGewinnt\lut\0\i\VierGewinntCore\Debug\VierGewinntCore.csproj.CopyComplete
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\.vs\VierGewinnt\lut\0\i\VierGewinntCore\Debug\VierGewinntCore.exe
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\.vs\VierGewinnt\lut\0\i\VierGewinntCore\Debug\VierGewinntCore.pdb

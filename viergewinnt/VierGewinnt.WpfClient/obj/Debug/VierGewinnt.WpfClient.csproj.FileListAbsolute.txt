@@ -1,0 +1,50 @@
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient.csprojAssemblyReference.cache
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\MainWindow.g.cs
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\App.g.cs
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient_MarkupCompile.cache
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient_MarkupCompile.lref
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\bin\Debug\VierGewinnt.WpfClient.exe.config
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\bin\Debug\VierGewinnt.WpfClient.exe
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\bin\Debug\VierGewinnt.WpfClient.pdb
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\bin\Debug\VierGewinntCore.dll
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\bin\Debug\VierGewinntCore.pdb
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\MainWindow.baml
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient.g.resources
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient.Properties.Resources.resources
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient.csproj.GenerateResource.cache
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient.csproj.CoreCompileInputs.cache
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient.csproj.CopyComplete
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient.exe
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient.pdb
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\SpielerView.g.cs
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\SpielerView.baml
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\Resources.baml
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\GeneratedInternalTypeHelper.g.cs
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\App.baml
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\SpielbrettView.g.cs
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinnt.WpfClient\obj\Debug\SpielbrettView.baml
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient.exe
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient.pdb
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\bin\Debug\VierGewinnt.WpfClient.exe.config
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\bin\Debug\VierGewinnt.WpfClient.exe
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\bin\Debug\VierGewinnt.WpfClient.pdb
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\bin\Debug\VierGewinntCore.dll
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\bin\Debug\VierGewinntCore.pdb
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient.csprojAssemblyReference.cache
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\Views\SpielbrettView.baml
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\Views\MainWindow.g.cs
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\Views\SpielbrettView.g.cs
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\Views\SpielerView.g.cs
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\App.g.cs
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient_MarkupCompile.cache
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient_MarkupCompile.lref
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\App.baml
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\Views\MainWindow.baml
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\Views\SpielerView.baml
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient.g.resources
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient.Properties.Resources.resources
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient.csproj.GenerateResource.cache
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient.csproj.CoreCompileInputs.cache
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\VierGewinnt.WpfClient.csproj.CopyComplete
+C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\Resources.baml

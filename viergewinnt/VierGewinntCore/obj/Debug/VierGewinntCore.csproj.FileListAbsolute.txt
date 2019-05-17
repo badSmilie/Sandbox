@@ -1,0 +1,16 @@
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinntCore\bin\Debug\VierGewinntCore.dll
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinntCore\bin\Debug\VierGewinntCore.pdb
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.Properties.Resources.resources
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.csproj.GenerateResource.cache
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.csproj.CoreCompileInputs.cache
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.dll
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.pdb
+\\he111163e004.emea1.cds.t-internal.com\a4383524$\Home\Data\Visual Studio 2017\Projects\VierGewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.csprojAssemblyReference.cache
+C:\projekte\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.dll
+C:\projekte\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.pdb
+C:\projekte\viergewinnt\VierGewinntCore\bin\Debug\VierGewinntCore.dll
+C:\projekte\viergewinnt\VierGewinntCore\bin\Debug\VierGewinntCore.pdb
+C:\projekte\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.csprojAssemblyReference.cache
+C:\projekte\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.Properties.Resources.resources
+C:\projekte\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.csproj.GenerateResource.cache
+C:\projekte\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.csproj.CoreCompileInputs.cache
