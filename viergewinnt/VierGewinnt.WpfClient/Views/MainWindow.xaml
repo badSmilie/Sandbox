@@ -8,23 +8,24 @@
         mc:Ignorable="d"
         WindowState="Maximized"
         Title="Vier Gewinnt" Height="1000" Width="1900">
-    <d:Window.DataContext>
-        <SampleData:MainViewModelSampleData />
-    </d:Window.DataContext>
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type local:SpielViewModel}">
+            <local:SpielView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:StartPageViewModel}">
+            <local:StartPage/>
+        </DataTemplate>
+    </Window.Resources>
+
     <Grid Margin = "30">
         <Grid.RowDefinitions>
-            <RowDefinition Height="377*"/>
-            <RowDefinition Height="43*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="70" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="250"/>
-            <ColumnDefinition />
-            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-
-        <ContentControl Grid.Column="0" Content="{Binding Path=SpielerViewModels[0]}" ContentTemplate="{StaticResource SpielerViewModelDataTemplate}"/>
-        <ContentControl Grid.Column="1" Content="{Binding Path=SpielbrettViewModel}" ContentTemplate="{StaticResource SpielbrettViewModelDataTemplate}"/>
-        <ContentControl Grid.Column="2" Content="{Binding Path=SpielerViewModels[1]}" ContentTemplate="{StaticResource SpielerViewModelDataTemplate}"/>
-        <TextBlock Text="{Binding Gewinnername, StringFormat=\{0\} hat gewonnen}" Grid.ColumnSpan="3" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Segoe UI Light" FontSize="40"></TextBlock>
+        <ContentControl Grid.Row="0" Grid.Column="0" Content="{Binding ViewModel}"/>
+        <Button Content="Neu" FontSize="30" FontFamily="Segoe UI Light" HorizontalAlignment="Center" Width="200" Grid.Row="2" Grid.ColumnSpan="2" Command="{Binding StarteSpielCommand}"  />
     </Grid>
 </Window>

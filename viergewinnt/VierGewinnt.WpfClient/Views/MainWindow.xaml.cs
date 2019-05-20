@@ -24,7 +24,6 @@ namespace VierGewinnt.WpfClient
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new MainViewModelSampleData();
         }
     }
 }

@@ -10,22 +10,22 @@ namespace VierGewinnt.WpfClient
     class KlickSpalteCommand : IClickColumnCommand
     {
         private readonly ISpalte spalte;
-        private readonly IMainViewModel _mainWindowViewModel;
+        private readonly ISpielViewModel _spielWindowViewModel;
         public int SpaltenIndex => spalte.Index;
 
         public event EventHandler CanExecuteChanged;
 
-        public KlickSpalteCommand(ISpalte column, IMainViewModel mainWindowViewModel)
+        public KlickSpalteCommand(ISpalte column, ISpielViewModel spielViewModel)
         {
             if (column == null) throw new ArgumentNullException("column");
-            if (mainWindowViewModel == null) throw new ArgumentNullException("mainWindowViewModel");
+            if (spielViewModel == null) throw new ArgumentNullException("spielViewModel");
 
             spalte = column;
-            _mainWindowViewModel = mainWindowViewModel;
-            _mainWindowViewModel.PropertyChanged += MainWindowViewModel_PropertyChanged;
+            _spielWindowViewModel = spielViewModel;
+            _spielWindowViewModel.PropertyChanged += SpielViewModelPropertyChanged;
         }
 
-        private void MainWindowViewModel_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+        private void SpielViewModelPropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
             if (e.PropertyName == "Gewinnername")
                 OnCanExecuteChanged();
@@ -41,12 +41,12 @@ namespace VierGewinnt.WpfClient
         }
         public bool CanExecute(object parameter)
         {
-            return string.IsNullOrEmpty(_mainWindowViewModel.Gewinnername) && spalte.IstSpalteVoll == false;
+            return string.IsNullOrEmpty(_spielWindowViewModel.Gewinnername) && spalte.IstSpalteVoll == false;
         }
 
         public void Execute(object parameter)
         {
-            _mainWindowViewModel.SpieleZug(spalte);
+            _spielWindowViewModel.SpieleZug(spalte);
             if (spalte.IstSpalteVoll)
                 OnCanExecuteChanged();
         }

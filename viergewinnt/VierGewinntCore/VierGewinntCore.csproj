@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="Diagonale.cs" />
     <Compile Include="Farbe.cs" />
+    <Compile Include="IFarbe.cs" />
     <Compile Include="IPlatz.cs" />
     <Compile Include="ISpalte.cs" />
     <Compile Include="IPlatzFactory.cs" />

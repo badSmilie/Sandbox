@@ -60,8 +60,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Views\Farbkonverter.cs" />
     <Compile Include="Interfaces\IMainViewModel.cs" />
+    <Compile Include="Interfaces\IStartPageViewModel.cs" />
+    <Compile Include="FarbenCommand.cs" />
+    <Compile Include="StartSpielCommand.cs" />
+    <Compile Include="SampleData\StartPageSampleData.cs" />
+    <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="ViewModel\StartPageViewModel.cs" />
+    <Compile Include="Views\Farbkonverter.cs" />
+    <Compile Include="Interfaces\ISpielViewModel.cs" />
     <Compile Include="Interfaces\ISpielbrettViewModel.cs" />
     <Compile Include="Interfaces\ISpielerViewModel.cs" />
     <Compile Include="Interfaces\IstDranFarbkonverter.cs" />
@@ -70,10 +77,13 @@
     <Compile Include="ViewModel\PlatzViewModelDecorator.cs" />
     <Compile Include="ViewModel\PlatzViewModelDecoratorFactory.cs" />
     <Compile Include="SampleData\ClickColumnCommandDummy.cs" />
-    <Compile Include="SampleData\MainViewModelSampleData.cs" />
-    <Compile Include="ViewModel\MainWindowViewModel.cs" />
+    <Compile Include="SampleData\SpielViewModelSampleData.cs" />
+    <Compile Include="ViewModel\SpielViewModel.cs" />
     <Compile Include="SampleData\SpielbrettViewSampleData.cs" />
     <Compile Include="SampleData\SpielerViewModelSampleData.cs" />
+    <Compile Include="Views\SpielView.xaml.cs">
+      <DependentUpon>SpielView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\SpielbrettView.xaml.cs">
       <DependentUpon>SpielbrettView.xaml</DependentUpon>
     </Compile>
@@ -82,6 +92,13 @@
       <DependentUpon>SpielerView.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModel\SpielerViewModel.cs" />
+    <Compile Include="Views\StartPage.xaml.cs">
+      <DependentUpon>StartPage.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Views\SpielView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Views\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -103,6 +120,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\SpielerView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\StartPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -141,5 +162,16 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Bilder\blau.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Bilder\gelb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Bilder\rosa.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

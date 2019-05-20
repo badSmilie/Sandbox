@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\projekte\viergewinnt\VierGewinnt.WpfClient\obj\Debug\
+C:\projekte\Sandbox\viergewinnt\VierGewinnt.WpfClient\obj\Debug\
 VierGewinnt.WpfClient
 none
 false
 DEBUG;TRACE
-C:\projekte\viergewinnt\VierGewinnt.WpfClient\App.xaml
-4-970677122
+C:\projekte\Sandbox\viergewinnt\VierGewinnt.WpfClient\App.xaml
+61469426582
 
-24-1930899209
-14716416214
-Views\MainWindow.xaml;Resources.xaml;Views\SpielbrettView.xaml;Views\SpielerView.xaml;
+33-1248542684
+14-919389914
+Views\SpielView.xaml;Views\MainWindow.xaml;Resources.xaml;Views\SpielbrettView.xaml;Views\SpielerView.xaml;Views\StartPage.xaml;
 
-True
+False
 

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\projekte\Sandbox\viergewinnt\VierGewinnt.WpfClient\App.xaml
-4-970677122
+61469426582
 
-24-1930899209
+32898083977
 14-919389914
-Views\MainWindow.xaml;Resources.xaml;Views\SpielbrettView.xaml;Views\SpielerView.xaml;
+Views\SpielView.xaml;Views\MainWindow.xaml;Resources.xaml;Views\SpielbrettView.xaml;Views\SpielerView.xaml;Views\StartPage.xaml;
 
-True
+False
 

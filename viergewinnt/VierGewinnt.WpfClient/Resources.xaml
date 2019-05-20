@@ -4,6 +4,12 @@
     <local:Farbkonverter x:Key="Farbkonverter" />
     <local:IstDranFarbkonverter x:Key="IstDranFarbkonverter" />
 
+    <DataTemplate x:Key="SpielViewDataTemplate" DataType="{x:Type local:ISpielViewModel}">
+        <local:SpielView />
+    </DataTemplate>
+    <DataTemplate x:Key="StartPageViewModelDataTemplate" DataType="{x:Type local:IStartPageViewModel}">
+        <local:StartPage />
+    </DataTemplate>
     <DataTemplate x:Key="SpielerViewModelDataTemplate" DataType="{x:Type local:ISpielerViewModel}">
         <local:SpielerView />
     </DataTemplate>

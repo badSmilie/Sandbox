@@ -6,9 +6,6 @@ namespace VierGewinnt.WpfClient
 {
     public interface IMainViewModel : INotifyPropertyChanged
     {
-        IReadOnlyList<ISpielerViewModel> SpielerViewModels { get; }
-        ISpielbrettViewModel SpielbrettViewModel { get; }
-        string Gewinnername { get; }
-        void SpieleZug(ISpalte spalte);       
+    
     }
 }

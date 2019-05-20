@@ -14,3 +14,10 @@ C:\projekte\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.csprojAssembly
 C:\projekte\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.Properties.Resources.resources
 C:\projekte\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.csproj.GenerateResource.cache
 C:\projekte\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.csproj.CoreCompileInputs.cache
+C:\projekte\Sandbox\viergewinnt\VierGewinntCore\bin\Debug\VierGewinntCore.dll
+C:\projekte\Sandbox\viergewinnt\VierGewinntCore\bin\Debug\VierGewinntCore.pdb
+C:\projekte\Sandbox\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.Properties.Resources.resources
+C:\projekte\Sandbox\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.csproj.GenerateResource.cache
+C:\projekte\Sandbox\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.csproj.CoreCompileInputs.cache
+C:\projekte\Sandbox\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.dll
+C:\projekte\Sandbox\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.pdb
