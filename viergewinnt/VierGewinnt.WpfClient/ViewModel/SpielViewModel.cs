@@ -9,7 +9,7 @@ using VierGewinntCore;
 
 namespace VierGewinnt.WpfClient
 {
-    public class SpielViewModel : ISpielViewModel, INotifyPropertyChanged
+    public class SpielViewModel : BaseViewModel, ISpielViewModel, INotifyPropertyChanged
     {
         private readonly IReadOnlyList<ISpielerViewModel> spielerViewModels;
         private readonly ISpielbrettViewModel spielbrettViewModel;
@@ -40,7 +40,7 @@ namespace VierGewinnt.WpfClient
 
         public Spielbrett Spielbrett => spielbrett;
 
-        public SpielViewModel(IReadOnlyList<ISpielerViewModel> pSpielerViewModels, ISpielbrettViewModel pSpielbrettViewModel, Spielbrett pSpielbrett)
+        public SpielViewModel(IReadOnlyList<ISpielerViewModel> pSpielerViewModels, ISpielbrettViewModel pSpielbrettViewModel, Spielbrett pSpielbrett) : base()
         {
             spielerViewModels = pSpielerViewModels;
             spielbrettViewModel = pSpielbrettViewModel;

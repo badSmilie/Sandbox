@@ -21,3 +21,4 @@ C:\projekte\Sandbox\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.csproj
 C:\projekte\Sandbox\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.csproj.CoreCompileInputs.cache
 C:\projekte\Sandbox\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.dll
 C:\projekte\Sandbox\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.pdb
+C:\projekte\Sandbox\viergewinnt\VierGewinntCore\obj\Debug\VierGewinntCore.csprojAssemblyReference.cache

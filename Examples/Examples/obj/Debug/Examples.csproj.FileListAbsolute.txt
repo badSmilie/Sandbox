@@ -1,0 +1,16 @@
+C:\projekte\Sandbox\Examples\Examples\obj\Debug\MainWindow.g.cs
+C:\projekte\Sandbox\Examples\Examples\obj\Debug\App.g.cs
+C:\projekte\Sandbox\Examples\Examples\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\projekte\Sandbox\Examples\Examples\obj\Debug\Examples_MarkupCompile.cache
+C:\projekte\Sandbox\Examples\Examples\obj\Debug\Examples_MarkupCompile.lref
+C:\projekte\Sandbox\Examples\Examples\bin\Debug\Examples.exe.config
+C:\projekte\Sandbox\Examples\Examples\bin\Debug\Examples.exe
+C:\projekte\Sandbox\Examples\Examples\bin\Debug\Examples.pdb
+C:\projekte\Sandbox\Examples\Examples\obj\Debug\MainWindow.baml
+C:\projekte\Sandbox\Examples\Examples\obj\Debug\Examples.g.resources
+C:\projekte\Sandbox\Examples\Examples\obj\Debug\Examples.Properties.Resources.resources
+C:\projekte\Sandbox\Examples\Examples\obj\Debug\Examples.csproj.GenerateResource.cache
+C:\projekte\Sandbox\Examples\Examples\obj\Debug\Examples.csproj.CoreCompileInputs.cache
+C:\projekte\Sandbox\Examples\Examples\obj\Debug\Examples.exe
+C:\projekte\Sandbox\Examples\Examples\obj\Debug\Examples.pdb
+C:\projekte\Sandbox\Examples\Examples\obj\Debug\Examples.csprojAssemblyReference.cache

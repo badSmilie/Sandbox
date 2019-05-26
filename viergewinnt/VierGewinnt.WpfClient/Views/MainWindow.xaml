@@ -8,6 +8,9 @@
         mc:Ignorable="d"
         WindowState="Maximized"
         Title="Vier Gewinnt" Height="1000" Width="1900">
+    <d:Window.DataContext>
+        <SampleData:MainViewModelSampleData />
+    </d:Window.DataContext>
     <Window.Resources>
         <DataTemplate DataType="{x:Type local:SpielViewModel}">
             <local:SpielView/>
@@ -15,6 +18,46 @@
         <DataTemplate DataType="{x:Type local:StartPageViewModel}">
             <local:StartPage/>
         </DataTemplate>
+        <ControlTemplate x:Key="ListBoxMenuItemTemplate" TargetType="{x:Type ListBoxItem}">
+            <Button Content="{Binding Name}" 
+                VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" 
+                Height="{TemplateBinding Height}"
+                Margin="{TemplateBinding Padding}"
+                Command="{Binding}"/>
+        </ControlTemplate>
+
+        <Style x:Key="ListBoxSpalteMenuStyle" TargetType="{x:Type ListBoxItem}">
+            <Setter Property="Template" Value="{StaticResource ListBoxMenuItemTemplate}" />
+            <Setter Property="Grid.Column" Value="{Binding SpaltenIndex}" />
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="Padding" Value="7.5 0" />
+            <Setter Property="Height" Value="60" />
+            <Setter Property="FontFamily" Value="Segoe UI Symbol" />
+            <Setter Property="FontSize" Value="20" />
+        </Style>
+
+        <Style x:Key="ListBoxMenuStyle" TargetType="{x:Type ListBox}">
+            <Setter Property="Margin" Value="0 0 0 0" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderBrush" Value="{x:Null}" />
+            <Setter Property="Height" Value="90" />
+            <Setter Property="ItemsPanel">
+                <Setter.Value>
+                    <ItemsPanelTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                        </Grid>
+                    </ItemsPanelTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="ItemContainerStyle" Value="{StaticResource ListBoxSpalteMenuStyle}" />
+        </Style>
     </Window.Resources>
 
     <Grid Margin = "30">
@@ -26,6 +69,6 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <ContentControl Grid.Row="0" Grid.Column="0" Content="{Binding ViewModel}"/>
-        <Button Content="Neu" FontSize="30" FontFamily="Segoe UI Light" HorizontalAlignment="Center" Width="200" Grid.Row="2" Grid.ColumnSpan="2" Command="{Binding StarteSpielCommand}"  />
+        <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding MenuCommands}" Style="{StaticResource ListBoxMenuStyle}" />
     </Grid>
 </Window>

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using VierGewinntCore;
 
 namespace VierGewinnt.WpfClient
@@ -12,12 +13,12 @@ namespace VierGewinnt.WpfClient
     public class MainViewModel : IMainViewModel, INotifyPropertyChanged
     {
         private static MainViewModel _instance;
-
-        private object _viewModel;
+        private List<IMenuCommand> _menuCommands;
+        private BaseViewModel _viewModel;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public object ViewModel
+        public BaseViewModel ViewModel
         {
             get
             {
@@ -28,6 +29,7 @@ namespace VierGewinnt.WpfClient
                 if (_viewModel != value)
                 {
                     _viewModel = value;
+                    InitializeMenu();
                     OnPropertyChanged();
                 }
             }
@@ -45,6 +47,22 @@ namespace VierGewinnt.WpfClient
             }
         }
 
+        public List<IMenuCommand> MenuCommands
+        {
+            get
+            {
+                return _menuCommands;
+            }
+            set
+            {
+                if (_menuCommands != value)
+                {
+                    _menuCommands = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
         private MainViewModel()
         {
 
@@ -56,6 +74,20 @@ namespace VierGewinnt.WpfClient
             {
                 handler(this, new PropertyChangedEventArgs(propertyName));
             }
+        }
+        public void InitializeMenu()
+        {
+            MenuCommands = new List<IMenuCommand>();
+            if (ViewModel.MenuCommands != null)
+                for (int i = 0; i < ViewModel.MenuCommands.Count; i++)
+                {
+                    ViewModel.MenuCommands[i].SpaltenIndex = i;
+                    MenuCommands.Add(ViewModel.MenuCommands[i]);
+                }
+        }
+        public void NeuesSpiel()
+        {
+            MainViewModel.Instance.ViewModel = StartPageViewModel.Instance;
         }
     }
 }

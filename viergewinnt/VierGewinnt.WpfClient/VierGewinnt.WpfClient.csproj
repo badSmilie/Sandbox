@@ -60,11 +60,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Interfaces\IMenuCommand.cs" />
     <Compile Include="Interfaces\IMainViewModel.cs" />
     <Compile Include="Interfaces\IStartPageViewModel.cs" />
     <Compile Include="FarbenCommand.cs" />
+    <Compile Include="NeuesSpielCommand.cs" />
+    <Compile Include="SampleData\MainViewModelSampleData.cs" />
     <Compile Include="StartSpielCommand.cs" />
     <Compile Include="SampleData\StartPageSampleData.cs" />
+    <Compile Include="ViewModel\BaseViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\StartPageViewModel.cs" />
     <Compile Include="Views\Farbkonverter.cs" />

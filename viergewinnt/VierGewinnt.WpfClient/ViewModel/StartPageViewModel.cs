@@ -10,7 +10,7 @@ using VierGewinntCore;
 
 namespace VierGewinnt.WpfClient
 {
-    public class StartPageViewModel : IStartPageViewModel, INotifyPropertyChanged
+    public class StartPageViewModel : BaseViewModel, IStartPageViewModel, INotifyPropertyChanged
     {
         private string _spielerNameA;
         private string _spielerNameB;
@@ -19,7 +19,7 @@ namespace VierGewinnt.WpfClient
         private Farbe _farbeSpielerB;
         private ICommand _starteSpielCommand;
         public event PropertyChangedEventHandler PropertyChanged;
-
+        private static StartPageViewModel _instance;
         public string SpielerNameA
         {
             get
@@ -65,7 +65,7 @@ namespace VierGewinnt.WpfClient
                 OnPropertyChanged();
             }
         }
-    public Farbe FarbeSpielerB
+        public Farbe FarbeSpielerB
         {
             get
             {
@@ -77,8 +77,25 @@ namespace VierGewinnt.WpfClient
                 OnPropertyChanged();
             }
         }
+        public static StartPageViewModel Instance
+        {
+            get
+            {
+                if (_instance == null)
+                {
+                    _instance = new StartPageViewModel();
+                    _instance.Initialize();
+                }
+                return _instance;
+            }
+        }
 
-        public StartPageViewModel()
+        private StartPageViewModel()
+        {
+            
+        }
+
+        private void Initialize()
         {
             SpielerNameA = "Spieler A";
             SpielerNameB = "Spieler B";
@@ -87,6 +104,7 @@ namespace VierGewinnt.WpfClient
             _farbenCommands.Add(new FarbenCommand(new Farbe(222, 183, 26, "/VierGewinnt.WpfClient;component/Bilder/rosa.png"), 0, this));
             _farbenCommands.Add(new FarbenCommand(new Farbe(62, 203, 119, "/VierGewinnt.WpfClient;component/Bilder/blau.png"), 1, this));
             _farbenCommands.Add(new FarbenCommand(new Farbe(236, 15, 208, "/VierGewinnt.WpfClient;component/Bilder/gelb.png"), 2, this));
+            MenuCommands = null;
         }
         
         public void StarteSpiel()

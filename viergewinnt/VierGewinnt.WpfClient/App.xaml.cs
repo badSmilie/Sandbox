@@ -20,7 +20,7 @@ namespace VierGewinnt.WpfClient
         {
             base.OnStartup(e);
 
-            StartPageViewModel startPageViewModel = new StartPageViewModel();
+            StartPageViewModel startPageViewModel = StartPageViewModel.Instance;
             MainViewModel.Instance.ViewModel = startPageViewModel;
             MainWindow mainWindow = new MainWindow { DataContext = MainViewModel.Instance };
             mainWindow.Show();
