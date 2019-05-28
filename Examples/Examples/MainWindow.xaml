@@ -8,7 +8,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="313*"/>
+            <RowDefinition Height="106*"/>
+            <RowDefinition Height="100" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.RowSpan="2">
             <ComboBox x:Name="cbo">
                 <sys:Double>10</sys:Double>
                 <sys:Double>16</sys:Double>
@@ -16,5 +21,8 @@
             </ComboBox>
             <local:TextLabel Text="DependencyProps sind cool" FontSize="{Binding ElementName=cbo, Path=SelectedItem}" />
         </StackPanel>
+        <local:SimpleCanvas Grid.Row="2" local:SimpleButton.Click="SimpleButton_Click">
+            <local:SimpleButton Content="ok" local:SimpleCanvas.Left="120" local:SimpleCanvas.Top="60" x:Name="btnYes" />
+        </local:SimpleCanvas>
     </Grid>
 </Window>

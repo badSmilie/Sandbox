@@ -24,5 +24,15 @@ namespace Examples
         {
             InitializeComponent();
         }
+
+        private void SimpleButton_Click(object sender, RoutedEventArgs e)
+        {
+            SimpleButton simpleButton = e.Source as SimpleButton;
+            switch (simpleButton.Name)
+            {
+                case "btnYes": MessageBox.Show("Ja");
+                    break;
+            }
+        }
     }
 }
