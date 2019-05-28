@@ -23,6 +23,7 @@ namespace Examples
         public MainWindow()
         {
             InitializeComponent();
+            this.AddHandler(ExitCommandRouted.ExecuteEvent, new RoutedEventHandler(OnExitExecute));
         }
 
         private void SimpleButton_Click(object sender, RoutedEventArgs e)
@@ -33,6 +34,11 @@ namespace Examples
                 case "btnYes": MessageBox.Show("Ja");
                     break;
             }
+        }
+
+        private void OnExitExecute(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

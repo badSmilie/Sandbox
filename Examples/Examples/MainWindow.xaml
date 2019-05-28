@@ -23,6 +23,7 @@
         </StackPanel>
         <local:SimpleCanvas Grid.Row="2" local:SimpleButton.Click="SimpleButton_Click">
             <local:SimpleButton Content="ok" local:SimpleCanvas.Left="120" local:SimpleCanvas.Top="60" x:Name="btnYes" />
+            <Button Content="exit" local:SimpleCanvas.Left="160" local:SimpleCanvas.Top="60" Command="{x:Static local:AppCommands.ExitRouted}" x:Name="btnShutdown" />
         </local:SimpleCanvas>
     </Grid>
 </Window>
