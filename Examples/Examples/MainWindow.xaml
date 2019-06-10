@@ -5,13 +5,18 @@
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Examples"
+        xmlns:vm="clr-namespace:Examples.ViewModel"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Window.Resources>
+        <vm:MainViewViewModel x:Key="mainViewViewModel" />
+    </Window.Resources>
+    <Grid DataContext="{StaticResource mainViewViewModel}">
         <Grid.RowDefinitions>
-            <RowDefinition Height="313*"/>
-            <RowDefinition Height="106*"/>
-            <RowDefinition Height="100" />
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40*" />
         </Grid.RowDefinitions>
         <StackPanel Grid.RowSpan="2">
             <ComboBox x:Name="cbo">
@@ -22,8 +27,27 @@
             <local:TextLabel Text="DependencyProps sind cool" FontSize="{Binding ElementName=cbo, Path=SelectedItem}" />
         </StackPanel>
         <local:SimpleCanvas Grid.Row="2" local:SimpleButton.Click="SimpleButton_Click">
-            <local:SimpleButton Content="ok" local:SimpleCanvas.Left="120" local:SimpleCanvas.Top="60" x:Name="btnYes" />
-            <Button Content="exit" local:SimpleCanvas.Left="160" local:SimpleCanvas.Top="60" Command="{x:Static local:AppCommands.ExitRouted}" x:Name="btnShutdown" />
+            <local:SimpleButton Content="ok" local:SimpleCanvas.Left="3" local:SimpleCanvas.Top="3" x:Name="btnYes" />
+            <Button Content="exit" local:SimpleCanvas.Left="30" local:SimpleCanvas.Top="3" Command="{x:Static local:AppCommands.ExitRouted}" x:Name="btnShutdown" />
         </local:SimpleCanvas>
+        <Grid Grid.Row="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="30*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+        <TextBlock Text="Vorname:" /> 
+        <TextBlock Text="{Binding Friends/FirstName}" Grid.Column="1"/>
+        <TextBlock Text="Nachname:" Grid.Row="1" />
+        <TextBlock Text="{Binding Friends/LastName}" Grid.Row="1" Grid.Column="1" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="2" Grid.ColumnSpan="2" VerticalAlignment="Top">
+            <Button Height="30" Width="70" Margin="10" Content="Back" Command="{Binding PreviousCommand}" />
+            <Button Height="30" Width="70" Margin="10" Content="Next" Command="{Binding NextCommand}" />
+        </StackPanel>
+        </Grid>
     </Grid>
 </Window>

@@ -55,10 +55,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Commands\ActionCommand.cs" />
     <Compile Include="Commands\AppCommands.cs" />
     <Compile Include="Commands\ExitCommandRouted .cs" />
     <Compile Include="Commands\ExitCommand.cs" />
+    <Compile Include="Model\Friend.cs" />
+    <Compile Include="Model\FriendCollection.cs" />
     <Compile Include="RoutedEvents\SimpleButton.cs" />
+    <Compile Include="ViewModel\MainViewViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -100,5 +105,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
